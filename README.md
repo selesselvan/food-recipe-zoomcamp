@@ -85,7 +85,7 @@ You get personalized, accurate, and delicious recipe ideas instantly, powered by
 💡 **In short:**
 The RAG flow combines **embeddings**, **vector search (Qdrant)**, and **LLM generation** to make cooking *smarter, faster, and more fun!*
 
----
+
 
 **🧠 RAG Pipeline**
 
@@ -126,6 +126,7 @@ Due to the large size (>1GB) of the embeddings file, full automation was not pos
 An easy-to-use **Streamlit** web app was built for interaction.
 
 Here’s a screenshot of the application running locally in Streamlit:
+
 ![Streamlit App Screenshot](images/streamlit_ui.png)
 
 ---
@@ -146,7 +147,11 @@ for continuous monitoring and improvement.
 
 📊 Dashboard screenshots can be found in the [`images/`](images/) folder.
 
-Example: ![Dashboard screenshots](images/Most_popular_recipes.png)
+Example:
+
+![Dashboard screenshots](images/Most_popular_recipes.png)
+
+---
 
 ## ⚙️ Setup Instructions
 
