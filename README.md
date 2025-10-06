@@ -5,7 +5,7 @@
 ![Cooking Banner](https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?cs=srgb&dl=pexels-chanwalrus-958545.jpg&fm=jpg)
 
 
-This project helps users find the perfect recipe in seconds — using semantic search powered by vector embeddings and open-source LLMs.
+This project helps users find the perfect recipe in seconds, using semantic search powered by vector embeddings and open-source LLMs.
 
 ---
 
@@ -25,7 +25,7 @@ LLM Zoomcamp focuses on:
 ## 🥘 Project Overview 
 
 Cooking can be time-consuming when you have to browse endless recipes.
-**Personal Food Recipe Assistant** makes it easy — just describe what you want to cook, like:
+**Personal Food Recipe Assistant** makes it easy, just describe what you want to cook, like:
 
 > “High-protein breakfast with oats”
 
@@ -44,6 +44,7 @@ This means the app understands *meaning*, not just keywords.
 * Over **230K recipes** with details like ingredients, cooking steps, and metadata.
 * Perfect for NLP applications such as semantic retrieval and text generation.
 * Used only the **RAW_recipes.csv** file (from Kaggle) to build the knowledge base.
+* The dataset can be downloaded directly from Kaggle or from [Google Drive](https://drive.google.com/drive/folders/18bgIVGCDvC8by-9pD3WSTqa-Z_CGK_qw?usp=drive_link). Since the file is quite large, it could not be uploaded to this repository.
 
 ---
 
@@ -104,7 +105,7 @@ The RAG flow combines **embeddings**, **vector search (Qdrant)**, and **LLM gene
 * Used **20 test queries** (`ground_truth.csv`)
 * Compared 3 embedding models (all 384-dim)
   ✅ **Best model:** `all-MiniLM-L6-v2`
-  → Achieved **~95% accuracy** on retrieval tasks
+  → Achieved **~95% accuracy** on retrieval tasks.
 
 ### 🔹 LLM Evaluation
 
@@ -124,6 +125,23 @@ Due to the large size (>1GB) of the embeddings file, full automation was not pos
 
 An easy-to-use **Streamlit** web app was built for interaction.
 
+---
+
+## Monitoring Dashboard
+
+Built-in Streamlit dashboard provides real-time insights into application usage:
+
+**Tracked Metrics:**
+- Total queries and unique recipes searched
+- User satisfaction rate (👍/👎 feedback)
+- Query trends over time
+- Most popular recipes
+- Activity patterns by hour
+
+User feedback is collected after each recipe recommendation and stored in `feedback.csv` 
+for continuous monitoring and improvement.
+
+Dashboard screenshots: [`images/dashboard/`](./images/dashboard)
 ---
 
 ## ⚙️ Setup Instructions
@@ -247,8 +265,8 @@ for i in tqdm(range(0, len(data), batch_size)):
 ### 1️⃣  Repository is cloned by:
 
 ```bash
-git clone https://github.com/selesselvan/food-recipe-assistant
-cd food-recipe-assistant
+git clone https://github.com/selesselvan/food-recipe-zoomcamp
+cd food-recipe-zoomcamp
 ```
 
 ### 2️⃣ Create Virtual Environment and Install Dependencies
@@ -282,7 +300,7 @@ Your app will be live at 👉 [http://localhost:8501](http://localhost:8501)
 **Folder structure:**
 
 ```
-food-recipe-assistant/
+food-recipe-zoomcamp/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
@@ -327,7 +345,7 @@ This project was completed following the DataTalksClub LLM Zoomcamp evaluation c
 ### 🚀 Finally 
 
 **Personal Food Recipe Assistant** brings together RAG, open-source LLMs, and semantic search to turn recipe discovery into an effortless, intelligent experience.
-Your next favourite meal is now just one natural-language query away! 🍝✨
+
 
 
 
