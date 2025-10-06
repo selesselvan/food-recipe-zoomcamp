@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  streamlit-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: recipe_assistant
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./feedback.csv:/app/feedback.csv
+    environment:
+      - QDRANT_URL=${QDRANT_URL}
+      - QDRANT_API_KEY=${QDRANT_API_KEY}
+    restart: unless-stopped

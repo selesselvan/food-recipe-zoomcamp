@@ -1,0 +1,19 @@
+timestamp,question,recipe_name,rating
+2025-10-05 00:31:40,margherita pizza,margherita pizza  pizza margherita,positive
+2025-10-05 02:00:53,quick recipe for white sauce,basic white sauce,positive
+2025-10-05 02:03:31,i want quick recipe for making indian tea,indian tea,negative
+2025-10-05 02:05:58,i want quick recipe for baking cake,fruity veggie cake,positive
+2025-10-05 02:07:54,i want quick recipe for baking cake,quick and easy fruit cake,positive
+2025-10-05 02:31:37,fruit cake,fruit  spice cake   not  a christmas fruit cake,positive
+2025-10-05 18:13:36,i want a biryani recipe,fuss free biryani chicken,positive
+2025-10-05 18:20:04,i want to make cream brulee,creme brulee dessert sauce,positive
+2025-10-05 19:04:31,how to cook rice,perfect steamed rice every time,positive
+2025-10-05 19:23:59,how to make maggi noodles,maggi mee goreng,positive
+2025-10-05 19:25:39,how to make soya chunks,soy milk,negative
+2025-10-05 19:29:22,how to make vegetable biryani,short cut vegetable biryani,positive
+2025-10-05 19:40:58,i want to make pasta recipe,master recipe for pasta dough,positive
+2025-10-05 19:43:07,i want to make a brownie,brownie mix,positive
+2025-10-05 21:37:06,palak paneer,palak paneer,positive
+2025-10-05 23:16:45,i want to make some chilli pakora,pakistani style aloo ka salan tarkari,negative
+2025-10-06 14:16:43,spinach daal ,spinach and potato dhal,positive
+2025-10-06 21:37:35,i would like a recipe for making dosa,potato and carrot dosa,positive
