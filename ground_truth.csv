@@ -1,0 +1,21 @@
+question,expected_recipe_id,expected_name,query_type
+Show me low fat berry blue frozen dessert,38,low fat berry blue frozen dessert,exact_name
+I want biryani,39,biryani,exact_name
+Show me best lemonade,40,best lemonade,exact_name
+carina s tofu vegetable kebabs recipe,41,carina s tofu vegetable kebabs,ingredient_based
+best blackbottom pie recipe,43,best blackbottom pie,exact_name
+How to make buttermilk pie with gingersnap crumb crust,45,buttermilk pie with gingersnap crumb crust,exact_name
+I want a jad   cucumber pickle,46,a jad   cucumber pickle,exact_name
+Show me boston cream pie,48,boston cream pie,exact_name
+I want chicken breasts lombardi,49,chicken breasts lombardi,ingredient_based
+Show me biscotti di prato,50,biscotti di prato,exact_name
+cafe cappuccino recipe,52,cafe cappuccino,exact_name
+How to make jimmy g s carrot cake,53,jimmy g s carrot cake,exact_name
+How to make betty crocker s southwestern guacamole dip,55,betty crocker s southwestern guacamole dip,exact_name
+How to make low fat burgundy beef   vegetable stew,58,low fat burgundy beef   vegetable stew,ingredient_based
+How to make lou s fabulous bruschetta,59,lou s fabulous bruschetta,exact_name
+I want black bean  corn  and tomato salad,62,black bean  corn  and tomato salad,exact_name
+How to make cabbage and sausage soup,63,cabbage and sausage soup,exact_name
+Show me black coffee barbecue sauce,66,black coffee barbecue sauce,exact_name
+How to make bourbon pecan pound cake,67,bourbon pecan pound cake,exact_name
+How to make buckwheat bread,70,buckwheat bread,exact_name
