@@ -141,8 +141,9 @@ Built-in Streamlit dashboard provides real-time insights into application usage:
 User feedback is collected after each recipe recommendation and stored in `feedback.csv` 
 for continuous monitoring and improvement.
 
-Dashboard screenshots: [`images/dashboard/`](./images/dashboard)
----
+📊 Dashboard screenshots can be found in the [`images/`](images/) folder.
+
+Example: ![Dashboard screenshots](images/Most_popular_recipes.png)
 
 ## ⚙️ Setup Instructions
 
