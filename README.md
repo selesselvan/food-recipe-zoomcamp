@@ -125,6 +125,9 @@ Due to the large size (>1GB) of the embeddings file, full automation was not pos
 
 An easy-to-use **Streamlit** web app was built for interaction.
 
+Here’s a screenshot of the application running locally in Streamlit:
+![Streamlit App Screenshot](images/streamlit_ui.png)
+
 ---
 
 ## Monitoring Dashboard
