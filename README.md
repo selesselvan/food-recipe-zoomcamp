@@ -319,7 +319,8 @@ docker-compose up --build
 
 App runs on [http://0.0.0.0:8501](http://0.0.0.0:8501)
 
-*(Attach preview video link here 🎥)*
+🎥 You can **download and watch the application demo** from the `images` folder: [video.mov](images/video.mov)
+
 
 ---
 
